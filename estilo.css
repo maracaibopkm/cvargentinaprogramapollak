@@ -1,0 +1,110 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #7790D9;
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+main {
+    display: flex;
+    padding: 0 10%;
+    line-height: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+nav ul li{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 20px;
+}
+
+body {
+    background-color: #F2F2F2;
+
+}
+
+
+section#informacionPersonal {
+    background-color:lightyellow;
+
+}
+
+section#informacionPersonal h1{
+    font-size: 1.8rem;
+    line-height: 40px;
+
+}
+
+section#informacionPersonal img{
+    border-radius: 50%;  
+    box-shadow: 0 0 10px white;
+    margin-bottom: 15px;
+}
+
+
+section#experiencia h3 {
+    font-size: 1rem;
+}
+
+section#informacionPersonal {
+    border: 2px solid #3B42BF;
+    border-radius: 20px;
+    width: 350px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+
+}
+
+section#experiencia {
+    border: 2px solid #3B42BF;
+    border-radius: 20px;
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+section#habilidades {
+    border: 2px solid #3B42BF;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+
+section#contacto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.margin-line {
+    margin: 80px 0;
+}
+
+
+
